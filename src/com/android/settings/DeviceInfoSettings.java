@@ -192,7 +192,7 @@ public class DeviceInfoSettings extends RestrictedSettingsFragment {
                     Log.e(LOG_TAG, "Unable to start activity " + intent.toString());
                 }
             }
-        } else if (prefKey().equals(KEY_BUILD_NUMBER)) {
+        } else if (prefKey.equals(KEY_BUILD_NUMBER)) {
             // Don't enable developer options for secondary users.
             if (UserHandle.myUserId() != UserHandle.USER_OWNER) return true;
 
