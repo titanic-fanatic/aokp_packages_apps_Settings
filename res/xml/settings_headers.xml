@@ -88,6 +88,13 @@
                 android:targetClass="com.cyanogenmod.settings.device.DeviceSettings" />
     </header>
 
+    <!-- Performance -->
+    <header
+        android:id="@+id/performance_controls"
+        android:fragment="com.brewcrewfoo.performance.activities.MainActivity"
+        android:icon="@drawable/ic_settings_performance"
+        android:title="@string/performance_settings" />
+
     <!-- Themes -->
     <header
         android:id="@+id/theme_settings"
